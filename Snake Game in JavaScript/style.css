@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #E3F2FD;
+  background: #29344795;
 }
 .wrapper {
   width: 65vmin;
@@ -41,6 +41,7 @@ body {
 }
 .play-board .food {
   background: #FF003D;
+  border-radius: 50%;
 }
 .play-board .head {
   background: #60CBFF;
