@@ -1,0 +1,51 @@
+DOM Manipulation: Change Background Color
+Create a button that, when clicked, changes the background color of the page randomly.
+Hint: Use document.body.style.backgroundColor and Math.random().
+
+DOM Manipulation: Add List Item
+Create a button that adds a new <li> element inside an existing <ul> when clicked.
+Hint: Use document.createElement() and appendChild().
+
+Event Handling: Counter
+Implement a counter with + and - buttons to increase or decrease a number displayed on the page.
+Hint: Use addEventListener("click", function() {...}).
+
+Event Handling: Keypress Logger
+Capture every key pressed by the user and display it in a <p> tag on the page.
+Hint: Use document.addEventListener("keydown", function(event) {...}).
+
+Closures & Scope: Private Counter
+Write a function createCounter() that returns an object with increment, decrement, and getValue methods. The counter should not be accessible directly.
+Hint: Use closures (function inside function).
+
+Higher-Order Functions: Custom Map Function
+Implement your own version of Array.prototype.map().
+javascript
+Copy
+Edit
+function myMap(arr, callback) {
+    // Your logic here
+}
+Hint: Use forEach() or for loop.
+
+Asynchronous JavaScript: Fetch & Display Data
+Fetch and display data from an API (e.g., https://jsonplaceholder.typicode.com/users) on the page.
+Hint: Use fetch() and async/await.
+
+Object-Oriented JavaScript: Constructor Function & Prototype
+Create a Person constructor function with name and age properties and a method greet() that logs "Hello, I am [name]".
+Hint: Use Person.prototype.greet = function() {...}.
+
+Event Delegation: Handle Child Clicks Using Parent
+Implement a parent <ul> element where clicking any <li> dynamically added later logs the text inside it.
+Hint: Use event.target in a single event listener on the <ul>.
+
+LocalStorage: Save Form Data
+Build a simple form where user input is stored in localStorage and persists even after a page reload.
+Hint: Use localStorage.setItem() and getItem().
+
+Bonus Challenges:
+
+Implement a debounce function for an input field.
+Convert sum(a, b, c) into a curried function.
+Implement lazy loading of images using IntersectionObserver
